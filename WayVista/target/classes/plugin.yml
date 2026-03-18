@@ -1,0 +1,23 @@
+name: WayVista
+version: 1.0.0
+main: br.com.wayvista.minimap.WayVistaPlugin
+api-version: '1.21'
+authors: ["Copilot"]
+description: Vanilla-friendly minimap and 3D waypoint plugin for Paper 1.21+
+
+commands:
+  waypoint:
+    description: Manage waypoints.
+    usage: /waypoint <set|remove|list|share|viewshared|minimap|help>
+    aliases: [wp]
+  minimap:
+    description: Toggle minimap HUD.
+    usage: /minimap <on|off|toggle|status>
+
+permissions:
+  wayvista.use:
+    description: Allows use of waypoint and minimap commands.
+    default: true
+  wayvista.admin:
+    description: Admin level controls.
+    default: op

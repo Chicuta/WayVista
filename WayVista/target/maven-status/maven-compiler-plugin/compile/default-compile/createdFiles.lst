@@ -1,0 +1,12 @@
+br\com\wayvista\minimap\command\MinimapCommand.class
+br\com\wayvista\minimap\WayVistaPlugin.class
+br\com\wayvista\minimap\data\Waypoint.class
+br\com\wayvista\minimap\data\PlayerSettings.class
+br\com\wayvista\minimap\render\MinimapMapRenderer.class
+br\com\wayvista\minimap\render\WaypointRenderer.class
+br\com\wayvista\minimap\i18n\Messages.class
+br\com\wayvista\minimap\command\WaypointCommand.class
+br\com\wayvista\minimap\data\WaypointStore.class
+br\com\wayvista\minimap\data\WaypointStore$SetResult.class
+br\com\wayvista\minimap\render\MinimapMapRenderer$1.class
+br\com\wayvista\minimap\render\MinimapMapRenderer$WayVistaMapRenderer.class

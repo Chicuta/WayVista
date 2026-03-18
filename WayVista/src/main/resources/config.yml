@@ -1,0 +1,12 @@
+language: pt_BR
+
+limits:
+  max-waypoints-per-player: 20
+
+render:
+  refresh-ticks: 20
+  particle-distance: 128.0
+  text-height: 2.4
+
+minimap:
+  scale: 1
